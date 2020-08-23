@@ -1,0 +1,30 @@
+{
+    "name": "Ruler",
+    "short_name": "Ruler",
+    "version": "0.0.1",
+    "description": "__MSG_description__",
+    "manifest_version": 2,
+    "default_locale": "zh_CN",
+    "minimum_chrome_version": "80",
+    "permissions": ["tabs", "activeTab"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_title": "Ruler",
+        "default_icon": {
+            "16": "icons/extension-icon-x16.png",
+            "32": "icons/extension-icon-x32.png",
+            "48": "icons/extension-icon-x48.png",
+            "128": "icons/extension-icon-x128.png"
+        }
+    },
+    "icons": {
+        "16": "icons/extension-icon-x16.png",
+        "32": "icons/extension-icon-x32.png",
+        "48": "icons/extension-icon-x48.png",
+        "128": "icons/extension-icon-x128.png"
+    },
+    "web_accessible_resources": ["style.css"]
+}

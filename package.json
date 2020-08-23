@@ -1,0 +1,34 @@
+{
+  "name": "ruler",
+  "version": "0.0.1",
+  "description": "chrome ruler extension",
+  "repository": "https://github.com/tjx666/ruler",
+  "author": "YuTengjing",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "webpack --watch"
+  },
+  "dependencies": {
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@types/chrome": "^0.0.122",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^4.2.1",
+    "mini-css-extract-plugin": "^0.10.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "sass-loader": "^9.0.3",
+    "terser-webpack-plugin": "^4.1.0",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpackbar": "^4.0.0"
+  }
+}

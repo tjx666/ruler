@@ -1,0 +1,10 @@
+{
+    "pluginDesc": {
+        "message": "Chrome ruler extension"
+    },
+    "color": { "message": "color" },
+    "bgOpacity": { "message": "opacity" },
+    "snapToBorder": { "message": "snapToBorder" },
+    "snapToVertex": { "message": "snapToVertex" },
+    "reset": { "message": "reset" }
+}
